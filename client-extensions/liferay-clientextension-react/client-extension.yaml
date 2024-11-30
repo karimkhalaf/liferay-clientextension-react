@@ -1,0 +1,15 @@
+assemble:
+    - from: vite-build
+      into: static
+liferay-clientextension-react:
+    cssURLs:
+        - style.css
+    friendlyURLMapping: liferay-clientextension-react
+    htmlElementName: liferay-clientextension-react
+    instanceable: false
+    name: React Form Client Extension
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - assets/*.js
+    useESM: true
