@@ -18,7 +18,7 @@ Download the repository to your local machine:
 
 ```bash
 git clone https://github.com/karimkhalaf/liferay-clientextension-react.git
-cd liferay-clientextension-react/clientextensions/liferay-clientextension-react
+cd liferay-clientextension-react/client-extensions/liferay-clientextension-react
 ```
 
 ### Step 2: Create a .env file
