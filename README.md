@@ -36,7 +36,7 @@ VITE_REACT_APP_SITE_KEY = {sitekey}
 ### Step 4: Build the docker image : 
 
 ```bash
-docker build -t liferay-clientextension-react .
+docker build -t liferay-clientextension-react ../..
  ```
 
 ### Step 4: Run the docker container :
