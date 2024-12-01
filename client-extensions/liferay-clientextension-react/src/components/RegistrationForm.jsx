@@ -2,6 +2,7 @@
 import { useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import styles from "./RegistrationForm.module.css";
+import React from "react";
 
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({

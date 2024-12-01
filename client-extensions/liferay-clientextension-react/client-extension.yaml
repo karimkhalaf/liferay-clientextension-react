@@ -3,7 +3,7 @@ assemble:
       into: static
 liferay-clientextension-react:
     cssURLs:
-        - style.css
+        - assets/*.css
     friendlyURLMapping: liferay-clientextension-react
     htmlElementName: liferay-clientextension-react
     instanceable: false
