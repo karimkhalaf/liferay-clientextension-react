@@ -33,7 +33,7 @@ VITE_REACT_APP_SITE_KEY = {sitekey}
 ../../gradlew build
 ```
 
-### Step 4: Build the docker image : 
+### Step 4: Build the docker image localy: 
 
 ```bash
 docker build -t liferay-clientextension-react ../..
